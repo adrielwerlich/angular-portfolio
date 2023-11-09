@@ -1,0 +1,17 @@
+.mat-sidenav-container {
+    background-color: lightskyblue;
+    min-height: 93vh !important;
+}
+
+.display-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+mat-sidenav {
+    width: 160px;
+}
