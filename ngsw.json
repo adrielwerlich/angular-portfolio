@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "timestamp": 1699493251469,
+  "index": "https://adrielwerlich.github.io/angular-portfolio/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://adrielwerlich.github.io/angular-portfolio/favicon.ico",
+        "https://adrielwerlich.github.io/angular-portfolio/index.html",
+        "https://adrielwerlich.github.io/angular-portfolio/main.023116a30fc7182b.js",
+        "https://adrielwerlich.github.io/angular-portfolio/manifest.webmanifest",
+        "https://adrielwerlich.github.io/angular-portfolio/polyfills.738e5e126b6c343f.js",
+        "https://adrielwerlich.github.io/angular-portfolio/runtime.870bd7a30bee66a3.js",
+        "https://adrielwerlich.github.io/angular-portfolio/styles.074f85a9e0c913f2.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-128x128.png",
+        "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-144x144.png",
+        "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-152x152.png",
+        "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-192x192.png",
+        "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-384x384.png",
+        "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-512x512.png",
+        "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-72x72.png",
+        "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-96x96.png",
+        "https://adrielwerlich.github.io/angular-portfolio/assets/images/flag-brazil.png",
+        "https://adrielwerlich.github.io/angular-portfolio/assets/images/flag-usa.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "https://adrielwerlich.github.io/angular-portfolio/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "https://adrielwerlich.github.io/angular-portfolio/assets/images/flag-brazil.png": "5b5ca071ea301269d308f3ccdcb3273cb8b5aeea",
+    "https://adrielwerlich.github.io/angular-portfolio/assets/images/flag-usa.png": "81750fb1e95010b0ef14ef34d01f607d1ae923a6",
+    "https://adrielwerlich.github.io/angular-portfolio/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://adrielwerlich.github.io/angular-portfolio/index.html": "0335718b4328bb0d510453048d9e05d377192733",
+    "https://adrielwerlich.github.io/angular-portfolio/main.023116a30fc7182b.js": "a7519ad453491baf54e3537130cb50d5fba560bc",
+    "https://adrielwerlich.github.io/angular-portfolio/manifest.webmanifest": "628860cdbee87891c65b1b7e626309fca84d5036",
+    "https://adrielwerlich.github.io/angular-portfolio/polyfills.738e5e126b6c343f.js": "979cde67881794a14f2f85d237ea090ee2be6b3a",
+    "https://adrielwerlich.github.io/angular-portfolio/runtime.870bd7a30bee66a3.js": "4b1d87f7ccb68564ce706606e97e26d30bd12830",
+    "https://adrielwerlich.github.io/angular-portfolio/styles.074f85a9e0c913f2.css": "f6dc580b40e433f4560c3bf110699dbbcd621b53"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
