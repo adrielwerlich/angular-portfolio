@@ -1,0 +1,19 @@
+<div class="text-editor">
+  <button (click)="execCommand('bold')">Bold</button>
+  <button (click)="execCommand('italic')">Italic</button>
+  <button (click)="execCommand('underline')">Underline</button>
+  <!-- New buttons -->
+  <button (click)="execCommand('justifyLeft')">Align Left</button>
+  <button (click)="execCommand('justifyCenter')">Center</button>
+  <button (click)="execCommand('justifyRight')">Align Right</button>
+  <button (click)="execCommand('insertUnorderedList')">Bulleted List</button>
+  <button (click)="execCommand('insertOrderedList')">Numbered List</button>
+  <!-- <button (click)="execCommandWithArg('createLink', prompt('Enter URL:'))">Hyperlink</button> -->
+
+  <app-toolbar (onCommand)="execCommand($event)"></app-toolbar>
+  <div id="editor" contenteditable="true" (copy)="copy($event)" (paste)="paste($event)"></div>
+</div>
+
+<div class="text-editor">
+  <textarea [(ngModel)]="content" style="width: 99.5%; height: 100%;"></textarea>
+</div>

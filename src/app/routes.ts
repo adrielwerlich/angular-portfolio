@@ -2,6 +2,9 @@ import { Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { SnakeGameComponent } from './snake-game/snake-game.component';
+import { TextEditorComponent } from './text-editor/text-editor.component';
+
+
 const routeConfig: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
 
@@ -23,6 +26,11 @@ const routeConfig: Routes = [
         path: 'snake-game',
         component: SnakeGameComponent,
         title: 'Snake game'
+    },
+    {
+        path: 'text-editor',
+        component: TextEditorComponent,
+        title: 'Text editor'
     }
 ];
 

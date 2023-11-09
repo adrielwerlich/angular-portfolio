@@ -1,6 +1,6 @@
 import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router'; // Add this line
 
 import { AppRoutingModule } from './app-routing.module';
@@ -16,11 +16,15 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { NgIf } from '@angular/common';
 import { SnakeGameComponent } from './snake-game/snake-game.component';
+import { TextEditorComponent } from './text-editor/text-editor.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
-    SnakeGameComponent
+    SnakeGameComponent,
+    TextEditorComponent,
+    ToolbarComponent
   ],
   imports: [
     NgIf,
@@ -31,7 +35,7 @@ import { SnakeGameComponent } from './snake-game/snake-game.component';
     BrowserModule,
     AppRoutingModule,
     RouterModule, // Add this line
-
+    FormsModule,
     BrowserAnimationsModule,
     
     ServiceWorkerModule.register('ngsw-worker.js', {

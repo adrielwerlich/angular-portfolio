@@ -36,12 +36,11 @@ interface ResourceKeys {
     </button>
     <span class="example-spacer"></span>
     <div fxShow="true" fxHide.lt-md="true">
-      <a mat-button routerLink="/about-us">About us</a>
-      <a mat-button routerLink="/prices">Prices</a>
-      <a mat-button routerLink="/start-page">Start page</a>
-      <a mat-button routerLink="/offer">Offer</a>
-      <a mat-button routerLink="/contact">Contact</a>
-      <a mat-button routerLink="/snake-game">Snake game</a>
+      <a mat-button routerLink="/about">{{ getTranslation("about") }}</a>
+      <a mat-button routerLink="/projects"> {{ getTranslation("projects") }} </a>
+      <a mat-button routerLink="/contact">{{ getTranslation("contact") }}</a>
+      <a mat-button routerLink="/snake-game">{{ getTranslation("snakeGame") }}</a>
+      <a mat-button routerLink="/text-editor">{{ getTranslation("textEditor") }}</a>
     </div>
   </mat-toolbar>
   <mat-sidenav-container fxFlexFill class="example-container">
@@ -52,6 +51,7 @@ interface ResourceKeys {
         <a mat-button routerLink="/projects"> {{ getTranslation("projects") }} </a>
         <a mat-button routerLink="/contact">{{ getTranslation("contact") }}</a>
         <a mat-button routerLink="/snake-game">{{ getTranslation("snakeGame") }}</a>
+        <a mat-button routerLink="/text-editor">{{ getTranslation("textEditor") }}</a>
       </div>
     </mat-sidenav>
     <mat-sidenav-content fxFlexFill>

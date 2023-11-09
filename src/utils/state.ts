@@ -30,6 +30,7 @@ const pt: ResourceKeys = {
     greeting: "Olá, eu sou o",
     greeting2: "Desenvolvedor Web e Unity",
     snakeGame: "Jogo da cobrinha",
+    textEditor: "Editor de texto",
 };
 const en: ResourceKeys = {
     about: "About me",
@@ -38,6 +39,7 @@ const en: ResourceKeys = {
     greeting: "Hello, I'm",
     greeting2: "Web and Unity Developer",
     snakeGame: "Snake game",
+    textEditor: "Text editor",
 };
 
 export function setLanguage(language: string) {

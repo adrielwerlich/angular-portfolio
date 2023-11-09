@@ -1,0 +1,13 @@
+<button (click)="onCommand.emit('bold')">Bold</button>
+<button (click)="onCommand.emit('italic')">Italic</button>
+<button (click)="onCommand.emit('underline')">Underline</button>
+<button (click)="onCommand.emit('justifyLeft')">Align Left</button>
+<button (click)="onCommand.emit('justifyCenter')">Center</button>
+<button (click)="onCommand.emit('justifyRight')">Align Right</button>
+<button (click)="onCommand.emit('insertUnorderedList')">Bulleted List</button>
+<button (click)="onCommand.emit('insertOrderedList')">Numbered List</button>
+<!-- <button (click)="onCommand2.emit({ command: 'createLink', arg: openPrompt('Enter URL:') })">Hyperlink</button> -->
+<button (click)="onCommand.emit('undo')">Undo</button>
+<button (click)="onCommand.emit('redo')">Redo</button>
+<button (click)="onCommand.emit('save')">Save</button>
+<!-- <input type="file" (change)="onFileChange.emit($event.target.files)"> -->
