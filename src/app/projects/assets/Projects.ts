@@ -370,6 +370,70 @@ export const projectsList = [
             "link": "https://chat-solution.web.app/",
             "language": "pt"
         }
+    },
+    {
+        "id": "",
+        "createdTime": "",
+        "fields": {
+            "Date Published": "2023-11-18",
+            "Excerpt": "This is built with React Three Fiber and React Spring. It´s a 3D portfolio",
+            "Title": "React 3D Portfolio",
+            "madeWith": "React Three Fiber",
+            "Image": {
+                "Url": "/assets/projects/images/3d-port.png",
+            },
+            "Body": "Since 2021 I started to learn React Three Fiber and React Spring. This is a 3D portfolio built with these technologies. If you click the black door you can play with the dummy or the bettle car",
+            "link": "https://r3f-portfolio-three.vercel.app/",
+            "language": "en"
+        }
+    },
+    {
+        "id": "",
+        "createdTime": "",
+        "fields": {
+            "Date Published": "2023-11-18",
+            "Excerpt": "Isso é construído com React Three Fiber e React Spring. É um portfólio 3D",
+            "Title": "React 3D Portfolio",
+            "madeWith": "Vanilla JS and Firebase",
+            "Image": {
+                "Url": "/assets/projects/images/3d-port.png",
+            },
+            "Body": "Desde 2021 comecei a aprender React Three Fiber e React Spring. Este é um portfólio 3D construído com essas tecnologias. Se você clicar na porta preta você pode brincar com o boneco ou com o carro bettle",
+            "link": "https://r3f-portfolio-three.vercel.app/",
+            "language": "pt"
+        }
+    },
+    {
+        "id": "",
+        "createdTime": "",
+        "fields": {
+            "Date Published": "2021-06-12",
+            "Excerpt": "This is built with Vue and Three.js library for 3D effects on the web",
+            "Title": "Vue 3D Portfolio",
+            "madeWith": "Vue.js e Three.js",
+            "Image": {
+                "Url": "/assets/projects/images/vue-port.png",
+            },
+            "Body": "My first 3D portfolio. It was built with Vue.js and Three.js. It has some 3D effects demonstrating some examples of what is possible to do on the Web with modern technologies",
+            "link": "https://adriel-portf.web.app/",
+            "language": "en"
+        }
+    },
+    {
+        "id": "",
+        "createdTime": "",
+        "fields": {
+            "Date Published": "2021-06-12",
+            "Excerpt": "Isso é construído com React Three Fiber e React Spring. É um portfólio 3D",
+            "Title": "Vue 3D Portfolio",
+            "madeWith": "Vue.js and Three.js",
+            "Image": {
+                "Url": "/assets/projects/images/vue-port.png",
+            },
+            "Body": "Meu primeiro portfólio 3D. Foi construído com Vue.js e Three.js. Tem alguns efeitos 3D demonstrando alguns exemplos do que é possível fazer na Web com tecnologias modernas",
+            "link": "https://adriel-portf.web.app/",
+            "language": "pt"
+        }
     }
 ]
 interface Project {
