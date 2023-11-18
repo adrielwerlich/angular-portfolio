@@ -15,10 +15,9 @@ import { SnakeGameService } from './snake-game.service';
 export class SnakeGameComponent implements AfterViewInit {
   private ctx!: CanvasRenderingContext2D;
   @ViewChild('canvas') canvas!: ElementRef<HTMLCanvasElement>;
+  private previousOverflowStyle: string | null = null;
 
-  constructor(private snakeGame: SnakeGameService, private ngZone: NgZone) {
-
-  }
+  constructor(private snakeGame: SnakeGameService, private ngZone: NgZone) { }
 
   ngAfterViewInit() {
     this.ngZone.runOutsideAngular(() => {
@@ -26,7 +25,14 @@ export class SnakeGameComponent implements AfterViewInit {
       this.snakeGame.resetGame();
       setInterval(() => this.tick(), 100);
     })
+    this.previousOverflowStyle = document.body.style.overflow;
     document.body.style.overflow = "hidden";
+  }
+
+  ngOnDestroy() {
+    if (this.previousOverflowStyle !== null) {
+      document.body.style.overflow = this.previousOverflowStyle;
+    }
   }
 
   changeDetectionRan(): void {
