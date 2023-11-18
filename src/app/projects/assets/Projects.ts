@@ -394,7 +394,7 @@ export const projectsList = [
             "Date Published": "2023-11-18",
             "Excerpt": "Isso é construído com React Three Fiber e React Spring. É um portfólio 3D",
             "Title": "React 3D Portfolio",
-            "madeWith": "Vanilla JS and Firebase",
+            "madeWith": "React Three Fiber",
             "Image": {
                 "Url": "/assets/projects/images/3d-port.png",
             },
