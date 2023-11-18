@@ -4,7 +4,7 @@ import { SnakeGameService } from './snake-game.service';
 @Component({
   selector: 'app-root',
   template: `
-    <div style="width: 100%; height: 100%; display: flex; justify-content: center;">
+    <div style="width: 90%; height: 100%; display: flex; justify-content: center; margin: 2rem; padding: 2rem;">
       <canvas #canvas width="800" height="500" style="border: 1px solid black;"></canvas>
     </div>
     {{changeDetectionRan()}}
@@ -16,7 +16,9 @@ export class SnakeGameComponent implements AfterViewInit {
   private ctx!: CanvasRenderingContext2D;
   @ViewChild('canvas') canvas!: ElementRef<HTMLCanvasElement>;
 
-  constructor(private snakeGame: SnakeGameService, private ngZone: NgZone) {}
+  constructor(private snakeGame: SnakeGameService, private ngZone: NgZone) {
+
+  }
 
   ngAfterViewInit() {
     this.ngZone.runOutsideAngular(() => {
@@ -24,14 +26,35 @@ export class SnakeGameComponent implements AfterViewInit {
       this.snakeGame.resetGame();
       setInterval(() => this.tick(), 100);
     })
+    document.body.style.overflow = "hidden";
   }
 
   changeDetectionRan(): void {
     console.log('cd ran')
   }
 
+  private ensureFoodWithinCanvas() {
+    const food = this.snakeGame.getFood();
+    const canvasWidth = this.canvas.nativeElement.width;
+    const canvasHeight = this.canvas.nativeElement.height;
+    const foodSize = 10;
+
+    if (food.x < 0) {
+      food.x = 0;
+    } else if (food.x + foodSize > canvasWidth) {
+      food.x = canvasWidth - foodSize;
+    }
+
+    if (food.y < 0) {
+      food.y = 0;
+    } else if (food.y + foodSize > canvasHeight) {
+      food.y = canvasHeight - foodSize;
+    }
+  }
+
   private tick() {
     this.snakeGame.tick(this.canvas.nativeElement.width, this.canvas.nativeElement.height);
+    this.ensureFoodWithinCanvas();
     this.draw();
   }
   private draw() {

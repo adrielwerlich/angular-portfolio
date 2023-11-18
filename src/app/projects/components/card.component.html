@@ -1,0 +1,22 @@
+<div class="card">
+  <div class="card-title" [title]="body">
+    <div class="card-image">
+      <figure class="mat-card-avatar" style="padding-top: 50%;">
+        <img [src]="image" alt="Placeholder image" [class]="checkImage(title)" [id]="'image-' + title">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-content">
+          <p class="title is-4" style="min-height: 60px;">{{title}}</p>
+        </div>
+      </div>
+      <div class="content">
+        <p style="min-height: 100px;">{{snippet}}</p>
+        <a [href]="link" target="__blank" class="button is-fullwidth">
+          {{ translate('view-project') }}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

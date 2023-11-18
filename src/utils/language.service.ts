@@ -1,0 +1,18 @@
+import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
+import { getLanguage, setLanguage  } from './state';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class LanguageService {
+  private languageSource = new BehaviorSubject<string>(getLanguage());
+  currentLanguage = this.languageSource.asObservable();
+
+  constructor() { }
+
+  changeLanguage(language: string) {
+    this.languageSource.next(language);
+    setLanguage(language);
+  }
+}

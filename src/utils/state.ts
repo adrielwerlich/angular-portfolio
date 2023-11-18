@@ -1,3 +1,7 @@
+export interface AppState {
+    language: string;
+  }
+
 
 export const state = {
     language: 'en',

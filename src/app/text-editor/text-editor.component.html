@@ -1,17 +1,26 @@
 <div class="text-editor">
-  <button (click)="execCommand('bold')">Bold</button>
-  <button (click)="execCommand('italic')">Italic</button>
-  <button (click)="execCommand('underline')">Underline</button>
+  <!-- <button (click)="applyStyle('bold')">Bold</button>
+  <button (click)="applyStyle('italic')">Italic</button>
+  <button (click)="applyStyle('underline')">Underline</button> -->
+
   <!-- New buttons -->
-  <button (click)="execCommand('justifyLeft')">Align Left</button>
+  <!-- <button (click)="execCommand('justifyLeft')">Align Left</button>
   <button (click)="execCommand('justifyCenter')">Center</button>
   <button (click)="execCommand('justifyRight')">Align Right</button>
   <button (click)="execCommand('insertUnorderedList')">Bulleted List</button>
-  <button (click)="execCommand('insertOrderedList')">Numbered List</button>
+  <button (click)="execCommand('insertOrderedList')">Numbered List</button> -->
   <!-- <button (click)="execCommandWithArg('createLink', prompt('Enter URL:'))">Hyperlink</button> -->
+  <!-- <button (click)="toggleStyle('bold')">Bold</button>
+  <button (click)="toggleStyle('italic')">Italic</button>
+  <button (click)="toggleStyle('underline')">Underline</button> -->
 
-  <app-toolbar (onCommand)="execCommand($event)"></app-toolbar>
-  <div id="editor" contenteditable="true" (copy)="copy($event)" (paste)="paste($event)"></div>
+  <!-- <app-toolbar (onCommand)="execCommand($event)"></app-toolbar> -->
+  <!-- <textarea [(ngModel)]="text" [ngStyle]="styles"></textarea> -->
+  <button (click)="applyStyle('bold')">Bold</button>
+  <button (click)="applyStyle('italic')">Italic</button>
+  <button (click)="applyStyle('underline')">Underline</button>
+  <div id="editor" contenteditable="true" [(ngModel)]="text"></div>
+  <!-- <div #editor contenteditable="true" (copy)="copy($event)" (paste)="paste($event)"></div> -->
 </div>
 
 <div class="text-editor">

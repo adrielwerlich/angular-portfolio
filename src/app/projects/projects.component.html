@@ -1,0 +1,29 @@
+<div id="projects" style="display: flex; flex-direction: column;">
+  <app-present-my-name style="display: flex; flex-direction: column; align-self: center;"></app-present-my-name>
+
+  <div class="projects-cards-list">
+    <div class="card-container" [ngClass]="{'hidden': project.fields.language !== language}"
+      *ngFor="let project of projects">
+      <mat-card class="post-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>{{ project.fields.Title }}</mat-card-title>
+          <mat-card-subtitle> {{ madeWith }} {{ project.fields.madeWith }}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image [src]="project.fields.Image.Url" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p style="min-height: 100px; padding: 1rem; margin-top: 1rem;">
+            {{ project.fields.Excerpt }}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button style="width: 90%;" mat-button>
+            <a [href]="project.fields.link" target="__blank" class="button is-fullwidth">
+              {{ viewProject }}
+            </a>
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+.name-container {
+  display: flex;
+  height: 40px;
+  top: 21px;
+  position: relative;
+  margin: 2rem;
+}

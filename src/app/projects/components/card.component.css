@@ -1,0 +1,11 @@
+.img-style {
+  padding: 1%; 
+  margin: 4% auto; 
+  height: 95%; 
+  width: 95%;
+}
+
+.less-width {
+  width: 35% !important;
+  margin: 0 auto;
+}
