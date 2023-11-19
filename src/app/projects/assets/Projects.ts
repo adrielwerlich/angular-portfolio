@@ -1,7 +1,6 @@
 export const projectsList = [
     {
         "id": "rec2N4vxu050L89Aq",
-        "createdTime": "2023-07-28T18:59:08.000Z",
         "fields": {
             "Date Published": "2023-07-28",
             "Excerpt": "Just a simple game for fun",
@@ -18,7 +17,6 @@ export const projectsList = [
     },
     {
         "id": "rec5PRFA0aOtpMPoK",
-        "createdTime": "2020-01-14T09:41:05.000Z",
         "fields": {
             "Date Published": "2019-12-15",
             "Excerpt": "It´s a dice game. Try your luck by arranging the different parameters of the game",
@@ -35,7 +33,6 @@ export const projectsList = [
     },
     {
         "id": "recDSM9C49yLRBGZn",
-        "createdTime": "2023-07-30T15:20:14.000Z",
         "fields": {
             "Date Published": "2023-07-30",
             "Excerpt": "Hit the targets",
@@ -52,7 +49,6 @@ export const projectsList = [
     },
     {
         "id": "recEr897pCjg353Q9",
-        "createdTime": "2020-03-02T02:36:01.000Z",
         "fields": {
             "Date Published": "2020-01-06",
             "Excerpt": "This is a very ancient tradition born in India five thousand years ago",
@@ -69,7 +65,6 @@ export const projectsList = [
     },
     {
         "id": "recIfmK7Xv0SPtJgX",
-        "createdTime": "2023-08-14T20:49:15.000Z",
         "fields": {
             "Date Published": "2023-08-14",
             "Excerpt": "Hit the planes",
@@ -86,7 +81,6 @@ export const projectsList = [
     },
     {
         "id": "recNTRM8ChqhQetFf",
-        "createdTime": "2020-07-19T19:25:28.000Z",
         "fields": {
             "Date Published": "2020-07-19",
             "Excerpt": "This website show some 2020 front-end challenges I took up using React.js. Hope you Enjoy it!",
@@ -102,7 +96,6 @@ export const projectsList = [
     },
     {
         "id": "recO1C5HChntfNPbB",
-        "createdTime": "2020-11-17T22:10:02.000Z",
         "fields": {
             "Date Published": "2020-11-17",
             "Excerpt": "Essa aplicação permite o envio e recebimento de texto entre plataformas",
@@ -119,7 +112,6 @@ export const projectsList = [
     },
     {
         "id": "recQthocPnM4FxuG0",
-        "createdTime": "2020-03-02T02:37:43.000Z",
         "fields": {
             "Date Published": "2020-01-07",
             "Excerpt": "Esssa é uma tradição muito antiga que nasceu na Índia há 5000 anos",
@@ -136,7 +128,6 @@ export const projectsList = [
     },
     {
         "id": "recRxTLyluCXqNub8",
-        "createdTime": "2020-02-18T03:43:15.000Z",
         "fields": {
             "Date Published": "2020-02-18",
             "Excerpt": "Front end enginnering challenges ever growing new types of solutions and ideas",
@@ -153,7 +144,6 @@ export const projectsList = [
     },
     {
         "id": "recTd7UHuHaqgQyNY",
-        "createdTime": "2020-01-14T09:41:06.000Z",
         "fields": {
             "Date Published": "2019-12-15",
             "Excerpt": "É um jogo de dados. Tente sua sorte ajustando os diferentes parâmetros do jogo",
@@ -170,7 +160,6 @@ export const projectsList = [
     },
     {
         "id": "recVozeETIYQP6eWF",
-        "createdTime": "2020-07-19T19:24:35.000Z",
         "fields": {
             "Date Published": "2020-07-19",
             "Excerpt": "Esse site mostra alguns desafios front-end 2020 em usando React.js",
@@ -186,7 +175,6 @@ export const projectsList = [
     },
     {
         "id": "reca4x4z0noTICLFE",
-        "createdTime": "2023-07-28T19:01:31.000Z",
         "fields": {
             "Date Published": "2023-07-30",
             "Excerpt": "Atire nos alvos",
@@ -203,7 +191,6 @@ export const projectsList = [
     },
     {
         "id": "recc0eZWIMrqsb9vU",
-        "createdTime": "2023-08-14T20:50:15.000Z",
         "fields": {
             "Date Published": "2023-08-14",
             "Excerpt": "Acerte os aviões",
@@ -220,7 +207,6 @@ export const projectsList = [
     },
     {
         "id": "recdikkcfJlhXl6j4",
-        "createdTime": "2020-02-18T01:33:11.000Z",
         "fields": {
             "Date Published": "2019-10-16",
             "Excerpt": "Apenas o esqueleto de uma loja virtual que pode ser usada para vender livros, jóias etc.",
@@ -237,7 +223,6 @@ export const projectsList = [
     },
     {
         "id": "receiwuf4RtJqVOxc",
-        "createdTime": "2020-01-14T09:52:19.000Z",
         "fields": {
             "Date Published": "2019-09-03",
             "Excerpt": "Jogo da velha tradicional. Tente vencer a IA ou desligue-a caso não consiga",
@@ -254,7 +239,6 @@ export const projectsList = [
     },
     {
         "id": "rech4s0P0N5XZyWze",
-        "createdTime": "2023-07-28T19:01:42.000Z",
         "fields": {
             "Date Published": "2023-07-28",
             "Excerpt": "Simples jogo passatempo ",
@@ -271,7 +255,6 @@ export const projectsList = [
     },
     {
         "id": "rechu9Ilm5LvysM0k",
-        "createdTime": "2020-01-14T15:02:51.000Z",
         "fields": {
             "Date Published": "2019-10-16",
             "Excerpt": "It´s just a skeleton of a possible ecommerce website with products like books, jewels etc",
@@ -288,7 +271,6 @@ export const projectsList = [
     },
     {
         "id": "recjaSATsOWMGDfbT",
-        "createdTime": "2020-11-17T22:13:11.000Z",
         "fields": {
             "Date Published": "2020-11-17",
             "Excerpt": "This application allows you to exchange data (text) between your plataforms",
@@ -305,7 +287,6 @@ export const projectsList = [
     },
     {
         "id": "reckfTVmDicYZ9O6C",
-        "createdTime": "2020-01-14T09:49:25.000Z",
         "fields": {
             "Date Published": "2019-09-03",
             "Excerpt": "Traditional hash game. Try to beat the AI, or turn it off",
@@ -322,7 +303,6 @@ export const projectsList = [
     },
     {
         "id": "recnc3rbHQcF3shmN",
-        "createdTime": "2020-02-18T15:26:21.000Z",
         "fields": {
             "Date Published": "2020-02-18",
             "Excerpt": "Desafios de desenvolvimento e engenharia de interface de usuário",
@@ -339,7 +319,6 @@ export const projectsList = [
     },
     {
         "id": "recpMrXJbYRCllXVH",
-        "createdTime": "2020-01-13T15:07:41.000Z",
         "fields": {
             "Date Published": "2019-12-02",
             "Excerpt": "This app allow for attendants to talk between themselves and to outside clients",
@@ -356,7 +335,6 @@ export const projectsList = [
     },
     {
         "id": "recz4K9DoZ6ozdIPt",
-        "createdTime": "2020-01-13T15:20:09.000Z",
         "fields": {
             "Date Published": "2019-12-02",
             "Excerpt": "Esse app permite que atendentes conversem entre si e com clientes da empresa",
@@ -372,8 +350,6 @@ export const projectsList = [
         }
     },
     {
-        "id": "",
-        "createdTime": "",
         "fields": {
             "Date Published": "2023-11-18",
             "Excerpt": "This is built with React Three Fiber and React Spring. It´s a 3D portfolio",
@@ -388,8 +364,6 @@ export const projectsList = [
         }
     },
     {
-        "id": "",
-        "createdTime": "",
         "fields": {
             "Date Published": "2023-11-18",
             "Excerpt": "Isso é construído com React Three Fiber e React Spring. É um portfólio 3D",
@@ -404,8 +378,6 @@ export const projectsList = [
         }
     },
     {
-        "id": "",
-        "createdTime": "",
         "fields": {
             "Date Published": "2021-06-12",
             "Excerpt": "This is built with Vue and Three.js library for 3D effects on the web",
@@ -420,8 +392,6 @@ export const projectsList = [
         }
     },
     {
-        "id": "",
-        "createdTime": "",
         "fields": {
             "Date Published": "2021-06-12",
             "Excerpt": "Isso é construído com React Three Fiber e React Spring. É um portfólio 3D",
@@ -434,11 +404,39 @@ export const projectsList = [
             "link": "https://adriel-portf.web.app/",
             "language": "pt"
         }
+    },
+    {
+        "fields": {
+            "Date Published": "2023-11-19",
+            "Excerpt": "This is my first flutter app published on the web 😁",
+            "Title": "Flutter Portfolio",
+            "madeWith": "Flutter",
+            "Image": {
+                "Url": "/assets/projects/images/flutter-port.png",
+            },
+            "Body": "This is the first app I've built with Flutter. It's a portfolio app. It's possible to see some of my projects and contact me.",
+            "link": "https://adriel-flutter-portfolio.vercel.app/",
+            "language": "en"
+        }
+    },
+    {
+        "fields": {
+            "Date Published": "2023-11-19",
+            "Excerpt": "Este é meu primeiro aplicativo flutter publicado na web 😁",
+            "Title": "Flutter Portfolio",
+            "madeWith": "Flutter",
+            "Image": {
+                "Url": "/assets/projects/images/flutter-port.png",
+            },
+            "Body": "Este é o primeiro aplicativo que desenvolvi com Flutter. É um aplicativo de portfólio. É possível ver alguns dos meus projetos e entrar em contato comigo.",
+            "link": "https://adriel-flutter-portfolio.vercel.app/",
+            "language": "pt"
+        }
     }
 ]
+
 interface Project {
     id: string;
-    createdTime: string;
     fields: {
         "Date Published": string;
         Excerpt: string;
